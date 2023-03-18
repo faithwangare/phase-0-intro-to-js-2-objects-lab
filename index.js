@@ -13,8 +13,8 @@ const employee = {
     return newEmployee;
   }
   function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value) {
-    employee["name"] = "Sam";
-    employee["streetAddress"] = "12 Broadway";
+    employee.name = "Sam";
+    employee.streetAddress = "12 Broadway";
     return employee;
   }
   function deleteFromEmployeeByKey(employee, key) {
